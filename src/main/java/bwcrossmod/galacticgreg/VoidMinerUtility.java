@@ -170,7 +170,7 @@ public class VoidMinerUtility {
                 dropMap.addDrop(element.mPrimaryMeta, element.mWeight, false);
                 dropMap.addDrop(element.mSecondaryMeta, element.mWeight, false);
                 dropMap.addDrop(element.mSporadicMeta, element.mWeight / 8f, false);
-                dropMap.addDrop(element.mBetweenMeta, element.mWeight / 8f, false);
+                dropMap.addDrop(element.mBetweenMeta, element.mWeight / 2f, false);
             });
 
         // Small Ores
@@ -224,7 +224,7 @@ public class VoidMinerUtility {
                 dropMap.addDrop(data.get(0), oreLayer.mWeight);
                 dropMap.addDrop(data.get(1), oreLayer.mWeight);
                 dropMap.addDrop(data.get(2), oreLayer.mWeight / 8f);
-                dropMap.addDrop(data.get(3), oreLayer.mWeight / 8f);
+                dropMap.addDrop(data.get(3), oreLayer.mWeight / 2f);
             }
         }
         return dropMap;
@@ -248,7 +248,7 @@ public class VoidMinerUtility {
                 dropMap.addDrop(element.mPrimaryMeta, element.mWeight, false);
                 dropMap.addDrop(element.mSecondaryMeta, element.mWeight, false);
                 dropMap.addDrop(element.mSporadicMeta, element.mWeight / 8f, false);
-                dropMap.addDrop(element.mBetweenMeta, element.mWeight / 8f, false);
+                dropMap.addDrop(element.mBetweenMeta, element.mWeight / 2f, false);
             });
 
         // Normal Small Ores
